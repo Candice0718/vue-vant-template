@@ -1,0 +1,23 @@
+$--color-primary: #0C66FF;
+$--color-warning: #FFAD0D;
+$--color-danger: #F03D3D;
+$--color-gray-600: #B5BBC6;
+$--color-dark-400: #53627C;
+$--color-white: #FFFFFF;
+$--fill-base: $--color-white;
+$--border-radius-base: 4px;
+$--index-top: 1000;
+$--color-gray-200: #F8F9FB;
+$--index-normal: 100;
+$--space-base: 4px;
+@mixin --space-around($space: margin, $times: $--times, $space-base: $--space-base) {
+  #{$space}: $times * $space-base;
+}
+@mixin --space-top($space: margin, $times: 0, $space-base: $--space-base) {
+  #{$space}-top: $times * $space-base;
+}
+
+:-webkit-full-screen {
+  width: 100%;
+  height: 100%;
+}

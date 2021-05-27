@@ -1,0 +1,127 @@
+  /**
+* @file flex
+* @version 0.0.1
+* @description flex布局
+**/
+.flex {
+    display: flex;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-space {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-space-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+.flex-around-center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-end-center {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.flex-align-center {
+    display: flex;
+    align-items: center;
+}
+.flex-align-top {
+    display: flex;
+    align-items: top;
+}
+.flex-align-bottom {
+    display: flex;
+    align-items: bottom;
+}
+
+.ta-c {
+    text-align: center;
+}
+
+/// 换行
+/// @group class-flex
+/// @access public
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /// 垂直排列
+  /// @group class-flex
+  /// @access public
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /// 在元素末尾位置水平对齐
+  /// @group class-flex
+  /// @access public
+  .flex-ju-end {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  /// 居中水平对齐
+  /// @group class-flex
+  /// @access public
+  .flex-ju-center {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /// 两端不留白水平对齐
+  /// @group class-flex
+  /// @access public
+  .flex-ju-between {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /// 在元素中间位置垂直对齐
+  /// @group class-flex
+  /// @access public
+  .flex-al-center {
+    display: flex;
+    align-items: center;
+  }
+  
+  /// 元素水平垂直居中对齐
+  /// @group class-flex
+  /// @access public
+  .flex-ju-al-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /// 元素水平两端，垂直居中对齐
+  /// @group class-flex
+  /// @access public
+  .flex-ju-al-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /// flex:auto
+  /// @group class-flex
+  /// @access public
+  .flex-auto {
+    display: flex;
+    flex: auto;
+  }

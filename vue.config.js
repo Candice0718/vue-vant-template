@@ -89,7 +89,7 @@ module.exports = {
             .set("@assets", path.resolve(__dirname, "src/assets")) //资源文件目录
             .set("@sass", path.resolve(__dirname, "src/sass")) //样式文件目录
             .set("@api", path.resolve(__dirname, "src/api")) //接口文件目录
-            .set("@services", path.resolve(__dirname, "src/service")) //接口处理逻辑文件目录
+            .set("@services", path.resolve(__dirname, "src/services")) //接口处理逻辑文件目录
             .set("@constants", path.resolve(__dirname, "src/constants")) //常量文件目录
             .set("@mixins", path.resolve(__dirname, "src/mixins")) //mixins文件目录
             .set("@utils", path.resolve(__dirname, "src/utils"));//工具文件目录
